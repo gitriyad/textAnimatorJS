@@ -1,10 +1,12 @@
 #a {
     height: 250px;
     width: 500px;
-    background: blue;
+    background: -webkit-gradient(linear, left top, right top, from(black), to(seagreen));
+    background: linear-gradient(to right, black, seagreen);
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    line-height: 250px;
 }
 
 @-webkit-keyframes clo {
