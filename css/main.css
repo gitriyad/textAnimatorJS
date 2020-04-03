@@ -1,0 +1,36 @@
+#a {
+    height: 250px;
+    width: 500px;
+    background: blue;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes clo {
+    0% {
+        color: gray;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: gray;
+    }
+}
+
+@keyframes clo {
+    0% {
+        color: gray;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: gray;
+    }
+}
